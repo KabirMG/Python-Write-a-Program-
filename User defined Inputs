@@ -1,0 +1,19 @@
+# Python Program - Get String Input from User
+str = input("Enter any string: ")
+print(str)
+
+# Python Program - Get Integer Input from User
+num = int(input("Enter an Integer: "))
+print(num)
+
+# Python Program - Get Float Input from User
+num = float(input("Enter a float value: "))
+print(num)
+
+# OUTPUT
+# Enter any string: Python is easy
+# Python is easy
+# Enter an Integer: 10
+# 10
+# Enter a float value: 100.05
+# 100.05
