@@ -1,0 +1,39 @@
+# Arithmetic Operators (6 Types)
+#  ADD, SUB, MULTI, DIVI, MOD & EXPO  
+
+int1 = int(input("Enter first number: "))
+int2 = int(input("Enter second number: "))
+
+# Addition	x + y   
+addition_int = int1 + int2
+print("ADDITION of the two numbers ",int1,"+",int2,"=",addition_int)
+
+# Subtraction	x - y 
+substraction_int = int1 - int2
+print("SUBSTRACTION of the two numbers ",int1,"-",int2,"=",substraction_int)
+
+# Multiplication	x * y 
+multiple_int = int1 * int2
+print("MULTIPLICATION of the two numbers  ",int1,"*",int2,"=",multiple_int)
+
+# Division	x / y  
+division_int = int1 / int2
+print("DIVISION of the two numbers  ",int1,"/",int2,"=",division_int)
+
+# Modulus	x % y
+modulus_int = int1 % int2
+print("MODULUS of the two numbers  ",int1,"/",int2,"=",modulus_int)
+
+# Exponentiation	x ** y
+exponential_int = int1 ** int2
+print("EXPONENTIAL of the two numbers  ",int1,"/",int2,"=",exponential_int)
+
+# OUTPUT
+# Enter first number: 10
+# Enter second number: 5
+# ADDITION of the two numbers  10 + 5 = 15
+# SUBSTRACTION of the two numbers  10 - 5 = 5
+# MULTIPLICATION of the two numbers   10 * 5 = 50
+# DIVISION of the two numbers   10 / 5 = 2.0
+# MODULUS of the two numbers   10 / 5 = 0
+# EXPONENTIAL of the two numbers   10 / 5 = 100000
