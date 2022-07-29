@@ -1,0 +1,71 @@
+# Assignment Operator ( 13types)
+# 1) Assign
+x = 3
+y = 5
+z = x + y
+print('z is', z)
+
+# 2) Add and Assign 
+a = 5
+a += 3
+print('a is', a)
+
+# 3) Subtract and Assig
+b=10
+b -= 3
+print('b is',b)
+
+# 4) Multiply and Assign
+c=7
+c *= 3
+print('c is',c)
+
+# 5) Divide and Assig
+d=9
+d /= 3
+print('d is',d)
+
+# 6) Modulus and Assig
+e=11
+e %= 3
+print('e is' ,e)
+
+# 7) Divide (floor) and Assign
+f=13
+f //= 3
+print('f is',f)
+
+# 8) Exponent and Assign
+g=3
+g **= 3
+print('g is',g)
+
+# 9) Bitwise AND and Assign
+h=6
+h &= 3
+print('h is',h)
+
+# 10) Bitwise OR and Assign
+i=3
+i |= 3
+print('i is',i)
+
+# 11) Bitwise XOR and Assign
+j=1
+j^= 3
+print('j is',j)
+
+# 12) Bitwise Right Shift and Assign
+k=2
+k >>= 3
+print('k is',k)
+
+# 13) Bitwise Left Shift and Assign
+l=7
+l <<= 3
+print('l is ',l)
+
+# OUTPUT
+# z is 8 , a is 8 , b is 7, c is 21
+# d is 3.0, e is 2 , f is 4 , g is 27
+# h is 2 ,i is 3 ,j is 2 ,k is 0 ,l is  56 
