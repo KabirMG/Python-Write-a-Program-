@@ -1,0 +1,18 @@
+# Alphabet Check for Vowel or Consonant
+# taking user input, First Alphabet Validation position [0]
+# taking user input, THIRD Alphabet Validation position [n-3]=[2]
+
+
+# taking user input
+ch = input('Enter Your Characters\n')[0]
+print('FIRST character selected for validation is : ',ch)
+if(ch=='A' or ch=='a' or ch=='E' or ch =='e' or ch=='I'
+ or ch=='i' or ch=='O' or ch=='o' or ch=='U' or ch=='u'):
+    print(ch, "is a Vowel")
+else:
+    print(ch, "is a Consonant")
+
+# OUTPUT
+# Enter Your Characters :  abc
+# FIRST character selected for validation is :  a
+# a is a Vowel
