@@ -1,0 +1,29 @@
+# Alphabet validation 
+# taking user input, First Alphabet Validation position [0]
+# taking user input, THIRD Alphabet Validation position [n-3]=[2]
+
+ch = input('Enter Your Characters\n')[0]
+print('FIRST character selected for validation is : ',ch)
+if((ch>='a' and ch<= 'z') or (ch>='A' and ch<='Z')):
+    print(ch, "is an Alphabet")
+else:
+    print(ch, "is not an Alphabet")
+  
+# taking user input, THIRD Character validation [n-3]=[2]
+ch = input('Enter Your Characters\n')[2]
+
+print('THIRD characters selected for validation is : ',ch)
+
+if((ch>='a' and ch<= 'z') or (ch>='A' and ch<='Z')):
+    print(ch, "is an Alphabet")
+else:
+    print(ch, "is not an Alphabet")
+    
+#OUTPUT
+#Enter Your Characters:  abccd
+# FIRST character selected for validation is :  a
+# a is an Alphabet
+# Enter Your Characters
+# anbbcd
+# THIRD characters selected for validation is :  b
+# b is an Alphabet
